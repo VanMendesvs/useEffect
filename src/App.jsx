@@ -39,19 +39,19 @@ function App(){
     if(marca === Vnw){
       document.querySelector("div").style.backgroundColor="#FFD700"
       document.querySelector("div").style.transition="ease-in-out 0.9s"
-      document.querySelector("div > h2").style.color = "#000000"  
+      document.querySelector("div > h2").style.color = "#FFA500"  
     }
 
     else if(marca === Amazon){
       document.querySelector("div").style.backgroundColor="#FFA500"
       document.querySelector("div").style.transition="ease-in-out 0.9s"
-      document.querySelector("div > h2").style.color = "#ffffff"
+      document.querySelector("div > h2").style.color = "#1E90FF"
     }
 
     else if(marca === Sirio){
       document.querySelector("div").style.backgroundColor="#1E90FF"
       document.querySelector("div").style.transition="ease-in-out 0.9s"
-      document.querySelector("div > h2").style.color = "#000000"
+      document.querySelector("div > h2").style.color = "#FFD700"
     }
     else{
       document.querySelector("div").style.backgroundColor="#FFFFFF"
